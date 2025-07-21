@@ -15,7 +15,7 @@
     document.getElementById("uploadForm").onsubmit = async function(e) {
       e.preventDefault();
       const formData = new FormData(this);
-      const response = await fetch("https://5a3ec2e4-5582-4adb-b4ed-a2366b07d8af-00-3mslftig0yprc.worf.replit.dev/", {
+      const response = await fetch("https://replit.com/@zikoilyas259/screenshot-server", {
         method: "POST",
         body: formData
       });
